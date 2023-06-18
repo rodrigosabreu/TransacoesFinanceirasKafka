@@ -1,0 +1,11 @@
+﻿{
+  "profiles": {
+    "Rodrigo.Transacoes.Consumidor": {
+      "commandName": "Project",
+      "dotnetRunMessages": true,
+      "environmentVariables": {
+        "DOTNET_ENVIRONMENT": "Development"
+      }
+    }
+  }
+}
