@@ -3,7 +3,7 @@ using Newtonsoft.Json;
 
 namespace Rodrigo.Transacoes.Produtor
 {
-    public class KafkaProducer
+    public class KafkaProducerTransacoes
     {
         private readonly string _bootstrapServers;
         private readonly string _topic;
@@ -11,7 +11,7 @@ namespace Rodrigo.Transacoes.Produtor
         private readonly string[] _transactionTypes = { "Débito", "Crédito", "PIX", "TEF" };
 
 
-        public KafkaProducer(string bootstrapServers, string topic)
+        public KafkaProducerTransacoes(string bootstrapServers, string topic)
         {
             _bootstrapServers = bootstrapServers;
             _topic = topic;
